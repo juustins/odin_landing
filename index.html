@@ -9,35 +9,67 @@
 </head>
 <body>
     <div class="header">
-        <div class="logo">Header logo</div>
-        <ul class="hLinks">
-            <li><a href="" >header link one</a></li>
-            <li><a href="" >header link two</a></li>
-            <li><a href="">header link three</a></li>
-        </ul>
+        <div class="logo">
+            Header logo
+        </div>
+
+        <div class="nav bar">
+            <ul class="navlinks">
+                <li><a href="">header link one</a></li>
+                <li><a href="">header link two</a></li>
+                <li><a href="">header link three</a></li>
+            </ul>
+        </div>
+
     </div>
 
-    <div class="main">
-        <div class="first">
-            <div class="text">
-                <h1>My awesome website</h1>
-                <p>This website has some subtext that goes here undeder the main title. It's smaller font and the color is lower contrast</p>
-                <button type="button">Sign up</button>
-            </div>
+    <!-- 
+        Hero to do list:
+        - Make hero div|x|
+        - Make heroArea div to house title text button|x|
+        - Make herimage div|x|
+        - Make heroTitle, heroText,heroButton in heroArea|x|
+     -->
 
-            <div class="image">
-                <img src="url" alt="image">
+    <div class="hero">
+        <div class="heroArea">
+            <h1 id="heroTitle">This website is awesome</h1>
+            <p id="heroText">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
+            <button id="heroButton">Sign up</button>
+        </div>
+        <div class="heroImage">
+            <img src="url" alt="place for an image">
+        </div>
+    </div>
+
+    <!-- 
+        INFO AREA DO TO:
+        - Make div infoArea|x|
+        - Make infoTitle|x|
+        - Make infoContrainer|x|
+        - Make infoIMGContrainer|x|
+            - Make in infoIMGCOntainer 4x IMG |x|
+        - Make infoIMGTextContainer|x|
+            - Make in infoIMGTextContainer 4x <P> with text|x|
+     -->
+
+     <div class="infoArea">
+        <h1 id="infoTitle">Some random information.</h1>
+        <div class="infoContainer">
+            <div class="infoImgContainer">
+                <img src="url" alt="infoIMG" class="infoImg">
+                <img src="url" alt="infoIMG" class="infoImg">
+                <img src="url" alt="infoIMG" class="infoImg">
+                <img src="url" alt="infoIMG" class="infoImg">
+            </div>
+            <div class="infoImgTextContainer">
+                <p class="infoText">this is some subtext under an illustration or image</p>
+                <p class="infoText">this is some subtext under an illustration or image</p>
+                <p class="infoText">this is some subtext under an illustration or image</p>
+                <p class="infoText">this is some subtext under an illustration or image</p>
             </div>
         </div>
 
-        <div class="second"></div>
-        <div class="third"></div>
-        <div class="fourth"></div>
-    </div>
-
-
-    <div class="footer">
-
-    </div>
+     </div>
 </body>
 </html>
